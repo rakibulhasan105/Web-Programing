@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <div class="flex-row">
+        <!-- sidebar -->
+        <div class="sidebar">
+            <div>
+                <h2 style="background-color: rgb(50, 50, 175);">UIU LEARNING HUB</h2>
+            </div>
+
+            <p class="dashboard sidepadding">Dashboard</p>
+            <p class="sidepadding">My Courses</p>
+            <p class="sidepadding">Assignments</p>
+            <p class="sidepadding">Exams</p>
+            <p class="sidepadding">Resources</p>
+            <p class="sidepadding">Grades & Results</p>
+            <p class="sidepadding">Calendar</p>
+            <p class="sidepadding">Discussions Forum</p>
+            <p class="sidepadding">Settings</p>
+        </div>
+
+
+        <main>
+            <div class="flex-row flex-between">
+                <h2 style="margin-left: 20px;"> Welcome to Your Learning Deshboard</h2>
+                <p id="search" style="margin-top: 5px;"> Search courses, resources...</p>
+            </div>
+
+            <div class="flex-row course-containar">
+                <!---cart-1---->
+                <div class="cart">
+                    <div class="card1-bg">
+                        <h3>CSE 4165: Web Programming</h3>
+                        <p style="margin-top: 35px;">Prof. John Doe</p>
+                    </div>
+
+                    <div style="padding: 10px ">
+                        <progress id="progress1" value="70" max="100"></progress>
+
+                        <div class="flex-row flex-between bottom-info">
+                            <p>Progress: 70%</p>
+                            <p>Grade: A</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!---cart-2---->
+                <div class="cart">
+                    <div class="card2-bg">
+                        <h3>CSE 3115: Database System</h3>
+                        <p style="margin-top: 35px;">Dr. Mamun</p>
+                    </div>
+
+                    <div style="padding: 10px ">
+                        <progress id="progress2" value="45" max="100"></progress>
+
+                        <div class="flex-row flex-between bottom-info">
+                            <p>Progress: 45%</p>
+                            <p>Grade: B+</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <!---cart-3---->
+                <div class="cart">
+                    <div class="card3-bg">
+                        <h3>CSE 3412: Algorithms</h3>
+                        <p style="margin-top: 35px;">Tarek Hasan</p>
+                    </div>
+
+                    <div style="padding: 10px ">
+                        <progress id="progress3" value="90" max="100"></progress>
+
+                        <div class="flex-row flex-between bottom-info">
+                            <p>Progress: 90%</p>
+                            <p>Grade: A+</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+            <!--footer-->
+            <div class="bottom-section">
+                <h3 style="margin-bottom: 10px; padding: 10px;">Upcoming Classes & Deadlines</h3>
+
+                <div class="flex-row course-containar">
+                    <!--cart1-->
+                    <div class="bottom-card bottom-card1-bg">
+
+                        <p>Today, 11:00 AM - 12:30 PM</p>
+                        <h3>Web Programing</h3>
+                        <p class="imp-note">Lecture</p>
+                    </div>
+
+                    <!--cart2-->
+                    <div class="bottom-card bottom-card2-bg">
+
+                        <p>Tomorrow, 9:30 AM</p>
+                        <h3>Database Quiz</h3>
+                        <p class="imp-note">Assessment</p>
+                    </div>
+
+                    <!--cart3-->
+                    <div class="bottom-card bottom-card3-bg">
+
+                        <p>Apr 6, 2:00 PM - 4:00 PM</p>
+                        <h3>Algorithms Lab</h3>
+                        <p class="imp-note">Practica</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </main>
+
+
+    </div>
+</body>
+
+</html>
