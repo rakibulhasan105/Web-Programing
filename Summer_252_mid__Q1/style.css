@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(42, 42, 126);
+    color: white;
+    height: 100vh;
+    width: 300px;
+
+
+}
+
+.sidepadding {
+    padding: 10px;
+    cursor: pointer;
+
+
+}
+
+.sidepadding:hover {
+    background-color: #3f5f9f;
+}
+
+.dashboard {
+    margin-top: 15px;
+    background-color: rgba(153, 153, 216, 0.219);
+
+    /* White shadow */
+
+}
+
+
+.flex-row {
+    display: flex;
+}
+
+main {
+    background-color: rgba(192, 184, 184, 0.583);
+    width: 100%;
+    padding: 0 10px;
+
+}
+
+.flex-between {
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#search {
+    background-color: rgb(233, 233, 242);
+    padding: 4px 30px;
+    border-radius: 30px;
+    color: rgb(130, 128, 124);
+
+}
+
+.cart {
+    margin-top: 10px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+
+#progress1 {
+    margin: 15px 0px;
+    accent-color: rgb(3, 66, 29);
+    width: 100%;
+
+}
+
+.bottom-info {
+    color: rgb(192, 183, 183);
+
+}
+
+.card1-bg {
+    background: linear-gradient(to right, red, rgb(39, 233, 39));
+    padding: 15px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+/* cart2 */
+#progress2 {
+    margin: 15px 0px;
+    accent-color: rgb(192, 39, 105);
+    width: 100%;
+
+}
+
+.card2-bg {
+    background: linear-gradient(to right, rgb(239, 31, 31), rgb(255, 166, 0));
+    padding: 15px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+
+/* cart3 */
+#progress3 {
+    margin: 15px 0px;
+    accent-color: rgb(18, 11, 96);
+    width: 100%;
+
+}
+
+.card3-bg {
+    background: linear-gradient(to right, rgb(37, 97, 14), rgb(10, 13, 86));
+    padding: 15px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.course-containar {
+    justify-content: space-evenly;
+}
+
+
+
+.bottom-card {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    color: white;
+    width: 310px;
+}
+
+.bottom-card1-bg {
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.418)10%, rgba(255, 86, 2, 0.847)60%);
+
+}
+
+.bottom-card2-bg {
+    background: radial-gradient(circle, rgb(164, 171, 34)10%, rgba(23, 0, 232, 0.992)60%);
+
+}
+
+.bottom-card3-bg {
+    background: radial-gradient(circle, rgb(217, 139, 5)10%, rgba(0, 217, 232, 0.992)60%);
+
+}
+
+.imp-note {
+    background-color: rgba(231, 203, 203, 0.408);
+    padding: 4px 7px;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.bottom-section {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 15px;
+}
